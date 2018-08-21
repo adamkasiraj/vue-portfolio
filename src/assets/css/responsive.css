@@ -1,0 +1,211 @@
+/* =================================== */
+/* Responsive */
+/* =================================== */
+@media (min-width:993px) and (max-width:1199px) {
+	.about-content .basic-info {
+		padding-top: 40px;
+	}
+	.single-item-resume i {
+		font-size: 200px;
+	}
+	.service-content .single-service {
+		height: 212px;
+	}
+	.service-content .single-service i {
+		font-size: 48px;
+		margin-top: 55px;
+		margin-bottom: 20px;
+	}
+	.service-detail p{
+		line-height: 25px;
+		font-size: 13px;
+	}
+}
+@media (min-width:768px) and (max-width:992px) {
+	.intro-section{
+		height:600px;
+	}
+	
+	.intro-main .intro-text {
+		margin: 0 auto;
+	}
+	.blog-section-content .single-blog-post {
+		margin-bottom: 30px;
+	}
+	.blog-section-content .single-blog-post:last-child{
+		margin-bottom:0px;
+	}
+	.contact-detail {
+		padding-top: 60px;
+	}
+	.single-contact-detail:nth-child(3),
+	.single-contact-detail:nth-child(4) {
+		margin-bottom:0px;
+	}
+}
+
+@media (min-width:640px) and (max-width:767px) {
+	.intro-section{
+		height:500px;
+	}
+	.intro-main .intro-text {
+		width: 70%;
+		margin:0 auto;
+	}
+	.single-service-container{
+		width: 50%;
+		margin: 0 auto;
+		float: left;
+	}
+}
+@media (min-width:480px) and (max-width:639px) {
+	.intro-section{
+		height:700px;
+	}
+	.intro-main .intro-text {
+		width: 80%;
+		margin:0 auto;
+	}
+}
+@media (max-width:480px) {
+	.intro-section{
+		height:650px;
+	}
+	.intro-main .intro-text {
+		width: 90%;
+		margin:0 auto;
+	}
+	.nav-bar-area .navbar-brand {
+		display:none;
+	}
+}
+@media (max-width:1192px) {
+	.project-item {
+		width: 33.33%;
+	}
+}	
+@media (max-width:639px) {
+	.project-item {
+		width: 100%;
+	}
+	.filter-list li{
+		float:none;
+		margin:10px 0px;
+	}
+	.filter-list li:before,
+	.filter-list li:after{
+		border: 1px solid #282528!important;
+	}
+	.filter-list li:before{
+		border-right: 0px !important;
+		left:1px;
+	}
+	.filter-list li:after{
+		border-left:0px!important;
+		top:0;
+	}
+	.filter-list li.active{
+		background: #282528;
+	}
+	.filter-list li.active{
+		color:#fff;
+	}
+}
+
+
+@media (max-width:992px){
+	html, body {
+		height: auto;
+	}
+	.intro-main{
+		top:60%;
+		transform:translate3d(0px, -60%, 0px);
+		-moz-transform:translate3d(0px, -60%, 0px);
+		-webkit-transform:translate3d(0px, -60%, 0px);
+	}
+	.single-item-resume i {
+		float: none;
+	}
+	.single-item-resume .item-detail {
+		margin-top: -150px;
+	}
+	.single-contact-detail {
+		text-align:center;
+	}
+
+}
+@media (max-width:767px){
+	.nav-bar-area #bs-example-navbar-collapse-1{
+		background:#282528;
+		transition:.1s;
+	}
+	.nav-bar-area.fixed-top #bs-example-navbar-collapse-1{
+		background:#282528;
+	}
+	.nav-bar-area .navbar-brand {
+		pointer-events: none;
+		opacity: 0;
+		transition:.3s;
+	}
+	.nav-bar-area.fixed-top .navbar-brand {
+		pointer-events: auto;
+		opacity: 1;
+	}
+	.nav-bar-area {
+		padding: 20px 0px;
+	}
+	.intro-section {
+		background-image:url('../../img/austin-xs.jpg');
+	}
+	.about-content .basic-info {
+		padding-top: 30px;
+	}
+	.about-content .skills-info {
+		padding-top: 0px;
+	}
+	.about-content .skills-info .skill-item:first-child {
+		margin-bottom:30px;
+	}
+	.resume-content .education{
+		padding-bottom: 50px;
+		border-bottom: 1px dashed;
+		margin-bottom: 50px;
+	}
+	.single-service-container{
+		margin-bottom:30px;
+	}
+	.single-service-container{
+		
+	}
+	.blog-section-content .single-blog-post {
+		margin-bottom: 40px;
+	}
+	.blog-section-content .single-blog-post:last-child{
+		margin-bottom:0px;
+	}
+	.single-contact-detail {
+		margin-bottom: 30px;
+	}
+	.single-contact-detail:last-child {
+		margin-bottom:0px;
+	}
+	.contact-detail {
+		padding-top: 40px;
+	}
+}
+@media (min-width:640px) and (max-width:992px) {
+	.project-item {
+		width: 50%;
+	}
+}
+@media (min-width:768px) {
+	.service-content .single-service-container:nth-child(1) .single-service,
+	.service-content .single-service-container:nth-child(2) .single-service,
+	.service-content .single-service-container:nth-child(3) .single-service,
+	.service-content .single-service-container:nth-child(4) .single-service{
+		margin-bottom:30px;
+	}
+	.intro-section {
+		background-image:url('../../img/austin.jpg');
+	}
+}
