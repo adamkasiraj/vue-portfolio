@@ -146,7 +146,7 @@ export default {
 					id: 7, 
 					title: 'Recent Orders Map',
 					techstack: ['Javascript', 'jQuery', 'Google Maps API', 'Demandware'],
-					description: 'A realtime map that tracks the most recent orders in realtime for 5 different e-commerce  sites',
+					description: 'A realtime map that tracks the most recent orders in realtime for 5 different e-commerce sites',
 					category: ['project-item', 'apps', 'webdev',],
 					image: '/static/slide-recent-orders.jpg'
 				},

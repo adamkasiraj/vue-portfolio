@@ -1,7 +1,7 @@
 <template>
   <main id="home">
     <section-hero></section-hero>
-    <section-portfolio></section-portfolio>
+    <!-- <section-portfolio></section-portfolio> -->
   </main>
 </template>
 
